@@ -11,9 +11,9 @@ git --version
 ###Comandos administrativos do git
 
 `
-git status
-git add index.html or git addgit commit -m "Mensagem do desenvolvedor" ex? "Update file README"
-git push -u orign master on main
+git status<br>
+git add index.html or git addgit commit -m "Mensagem do desenvolvedor" ex? "Update file README"<br>
+git push -u orign master on main<br>
 `
 
 ### 
