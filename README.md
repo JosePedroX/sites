@@ -3,7 +3,7 @@
 ### Instalação do GIT
 
 <p align="justify">
-    Realize a busca do termo [Instalar GIT](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) para Windows.
+   Busque por [Instalar GIT](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) para Windows.
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@ git --version
     <img src="docs/images/GitVersion.png" width="400">
 </p>
 
-### Comandos administrativos do GIT
+### Comandos de administração do GIT
 
 ```
 git status
