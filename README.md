@@ -14,6 +14,13 @@
 
 ```
 git --version
+Caso você já tenha um repositório, dê o comando: git clone (seu link de repositório)
+Após a clonagem, ou instalação do git, volte a pasta alunos e dê os comandos: git --global user.name "Seu apelido no git hub"
+git --global user.email exemplodoseugmail@gmail.com
+Para criar a chave dê o comando ssh-keygen. Aperte enter até pedir para a criação de sua senha, crie e confirme ela.
+entre na pasta ssh, com o comando: cd .ssh (use a tecla TAB para te auxiliar)
+verifique o que há dentro da pasta, para ir ao caminho desejado utilizando: ls
+ao gerar a chave pública: utilize o comando cat id(TAB) > copie sua chave gerada > vá em seu git hub > clique em sua foto de perfil > configurações > SSh and GPS keys > new SSh > adicione descrição caso necessário > cole sua chave copiada.  
 ```
 <p align="center">
     <img src="docs/images/GitVersion.png" width="400">
