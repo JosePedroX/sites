@@ -1,41 +1,62 @@
 <!DOCTYPE html>
+<!--DOCTYPE html = è usado para identificar o tipo de arquivo-->
 <html lang="pt-br">
+    <!-- define o idioma de um elemento - a língua em que os elementos não editáveis são escritos. Ou a língua em que o usuário deve escrever-->
 <head>
+    <!-- é a cabeça do site-->
     <meta charset="UTF-8">
+    <!--  é um código utilizado na codificação de caracteres em sites e páginas da web. permite que diferentes navegadores ou dispositivos possam exibir corretamente o texto e caracteres especiais da página.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta name+content = A meta tag "name"+"content" serve como uma espécie de assinatura eletrônica de quem desenvolveu a página. -->
     <title>
+        <!--title = define o título do documento, mostrado na barra de título de um navegador ou na aba da página.-->
         Ctálogo de Mídias</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <!--link rel + href= define a relação entre o arquivo em que o comando está escrito e o arquivo que é definido no caminho do link (geralmente conectado ao CSS).-->
 </head>
+<!-- head = providencia informações gerais sobre o documento, seu título e links para scripts e folhas de estilos.-->
 <body>
+    <!-- body = contém o corpo de um documento HTML, que é exibido pelo navegador em sua janela, ou seja, seu conteúdo visível-->
     <header>
+        <!-- header = é um bloco de conteúdo que pode conter um ou mais elementos de h1 ao h6-->
         </h1>Catálogo de Mídias</h1>
+        <!-- h1 = é a heading tag mais importante do post, não é possível publicar o texto sem o título-->
         <p>Explore aluns gostos pessoais</p>
+        <!--p = a tag p significa: parágrafo.-->
     </header>
-
+    <!-- fim da HEADER-->
     <div class="container">
+        <!--  Usado para limitar a largura do conteúdo, centralizando-o na página.-->
         <section class="intro">
             <h2>Sobre o Catálogo</h2>
             <p>Gostos melancólicos e reflexivos.</p>
+            <!--fim da section intro-->
         </section>
 
         <section class="category">
+            <!--section class="category": Usado para agrupar conteúdos relacionados a uma categoria específica.-->
             <h2>Filmes</h2>
             <div class="grid">
+                <!--Usada para criar um modelo de grade, o que permite organizar o conteúdo em várias colunas e linhas-->
                 <div class="card">
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/a/af/Blade_Runner_2049.png" alt="Blade runner">                
+                    <!--Usada para criar um bloco de conteúdo estilizado que pode conter imagem, texto e links-->
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/a/af/Blade_Runner_2049.png" alt="Blade runner">
+                    <!--tem dois critérios obrigatórios: src e alt. Src specifica o caminho para a imagem . alt - Especifica um texto alternativo para a imagem (caso não possa ser exibido)-->                
                     <h3>Blade runner</h3>
                     <p>Um filme que explora os avanços tecnológicos, e a destruiçao que vem junto. Ao mesmo tempo em que conta em como as IA's criam consciência, a partir de suas próprias expreriências.</p>
                 </div>
+                <!--é usada para divisão entre os argumentos do texto-->
                 <div class="card">
                  <img src="https://www.einerd.com.br/wp-content/uploads/2020/06/cyberpunk-edgerunners-poster.jpg" alt="Cyberpunk">
                     <h3>Cyberpunk</h3>
                     <p>Uma trama curta, composta por 10 episódios, que narra a história de um mercenário que luta pela sobrevivência ao lado de sua equipe. O enredo se passa em um cenário futurista, onde a sociedade reflete os vícios e as transformações cibernéticas.
                     <br>
+                    <!-- a tag br é usada para espaçamento entre as linhas-->
                 </p>
                 </div>
             </div>
         </section>
+        <!--a tag "section" representa uma seção de elemento HTML estrutural usada para agrupar elementos relacionados-->
 
         <section class="category">
             <h2>Músicas</h2>
@@ -72,8 +93,11 @@
         <section class="form-section">
             <h2>Cadastre-se</h2>
             <form>
+             <!--a tag form é usada para coleta de informações fornecidas por visitantes-->
                 <label for="name">Nome:</label>
+                <!-- label permite que você coloque elementos de rótulo em qualquer lugar dentro de um campo de preenchimento-->
                 <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                <!--especifica um campo de preenchimento onde o usuário deve inserir dados-->
 
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
@@ -82,6 +106,7 @@
                 <input type="text" id ="filmes" name="filmes" placeholder="Seu filme favorito" required>
 
                 <button type="submit">Cadastrar</button>
+                <!--a tag "button type", ao ser ativada pelo usuário, realiza uma execução-->
             </form>
         </section>
         <section class="form-section">
