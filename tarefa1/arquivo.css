@@ -10,16 +10,16 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d3a3a3;
-    color: #ffffff;
+    background-color: #5160e4;
+    color: #d37f00;
 }
 h2 {
     text-align: center;
 }
 
 header {
-    background-color: #5e0101;
-    color: rgba(255, 255, 255, 0.797);
+    background-color: #000650;
+    color: rgba(250, 171, 1, 0.797);
     text-align: center;
     padding: 20px;
 }
@@ -33,6 +33,9 @@ h1, h2 {
    h1:hover, h2:hover {
     color: #7e5d29;
    }
+   h4 {
+    font-family: "Lora", serif;
+   }
    
    .container {
     max-width: 1200px;
@@ -43,8 +46,23 @@ h1, h2 {
    .intro {
  text-align: center;
  margin-bottom: 30px;
- background: #333;
+ background: #121ca7;
  padding: 15px;
  border-radius: 8px;
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+ box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+    width: 30%;
+    height:min-content;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+.grid {
+    text-align: center;
 }
