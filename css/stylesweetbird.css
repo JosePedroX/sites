@@ -4,11 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;
-    font-family: 'Press Start 2P', cursive;
+    font-family: Chancery, cursive;
     
 }
+
 body {
-    background-image: url(/image/pixlr-image-generator-f52567ea-1762-49b4-a756-ac312b781ce0.png);
+    background-image: url('https://th.bing.com/th/id/OIP.NgoTpDgjRAKON1MHlCzVnwHaHa?rs=1&pid=ImgDetMain');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -24,7 +25,7 @@ body {
     text-decoration: none;
     text-align: center;
     font-family: Chancery, cursive;
-    color:rgb(37, 194, 194); 
+    color:rgb(182, 17, 17); 
 }
 
 .footer {
