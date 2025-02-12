@@ -1,55 +1,65 @@
-# MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
-## CAPITULO 1 - Configuração do git no computador
-### Instalação do GIT
+ # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
+## PASSO 1 - CONFIGURAÇÃO INICIAL
+Tutorial de instalação do GIT
 
-<p align="justify">
-   Busque por [Instalar GIT](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) para Windows.
+ <p align="justify">
+    Realize a busca do termo [Instalar GIT](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) para Windows.
 </p>
 
-<p align="center">
-    <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git" target="_blank">
-        <img src="docs/images/Git.png" width="400">
+ <p align="center">
+    <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git" target="_blank">
+        <img src="Docs/Imagens/Git.png" width="400"> 
     </a>
 </p>
 
-```
-git --version
-Caso você já tenha um repositório, dê o comando: git clone (seu link de repositório)
-Após a clonagem, ou instalação do git, volte a pasta alunos e dê os comandos: git --global user.name "Seu apelido no git hub"
-git --global user.email exemplodoseugmail@gmail.com
-Para criar a chave dê o comando ssh-keygen. Aperte enter até pedir para a criação de sua senha, crie e confirme ela.
-entre na pasta ssh, com o comando: cd .ssh (use a tecla TAB para te auxiliar)
-verifique o que há dentro da pasta, para ir ao caminho desejado utilizando: ls
-ao gerar a chave pública: utilize o comando cat id(TAB) > copie sua chave gerada > vá em seu git hub > clique em sua foto de perfil > configurações > SSh and GPS keys > new SSh > adicione descrição caso necessário > cole sua chave copiada.  
-```
+## PASSO 2 - CONFIGURANDO A CONTA GIT PELO TERMINAL
+Precisa fazer alguns comandos no Terminal do Windows para extrair a chave.
+
 <p align="center">
-    <img src="docs/images/GitVersion.png" width="400">
+    <img src="Docs/Imagens/Terminal.png" width="400"> 
 </p>
 
-### Comandos de administração do GIT
+- git --version
+- git config --global user.name "Fulano de Tal"
+- git config --global user.email fulanodetal@exemplo.br
+- ssh-keygen (Comando que gera a chave publica e privada, também irá pedir a criação de uma senha)
+- cat (Extrai a chave publica)
 
-```
-git status
+## PASSO 3 - CONFIGURANDO GIT
+Ao extrair a chave no Terminal, você precisa gravar sua chave no git.
+Profile > Setting > SSH and GPG Keys > New SSH Key
 
-git add index.html or git add .
-
-git commit -m "Mensagem do desenvolvedor" ex: "Update file README"
-
-git push -u origin master or main
-```
-
-## CAPITULO 2 - Criando repositorio no git
-### Criando Projeto
-
-<p align="justify">
-    Acesse o [GitHub](https://github.com/) no navegador.
-</p>
 <p align="center">
-    <a href="https://github.com/" target="_blank">
-        <img src="docs/images/GitHub.png" width="400">
-    </a>
+    <img src="Docs/Imagens/Captura de tela 2025-01-23 092848.png" width="400"> 
 </p>
 
-<p align="justify">
+## PASSO 4 - CRIAÇÃO DO REPOSITORIO
+Como criar um repositorio.
 
+- git init
+- git remote add origin
+- git branch -m brain
+- git push -u origin main ou master
+
+<p align="center">
+    <img src="Docs/Imagens/Repositorio.png" width="400"> 
 </p>
+
+## EXECUTANDO VSCODE
+<p align="center">
+    <img src="Docs/Imagens/vscode.png" width="400"> 
+</p>
+
+## PASSO 5 - COMANDOS ADMINISTRATIVOS DO GIT NO TERMINAL DO VSCODE
+
+<p align="center">
+    <img src="Docs/Imagens/Terminal VScode.png" width="400"> 
+</p>
+
+- git status
+- git add . or git add index.html
+- git commit -m "Mensagem de desenvolvedor" ex: git commit -m "File update"
+- git push -u origion master or main
+
+## Clonar Projeto do Github 
+git clone (+ link do projeto no git e dentro do diretorio)

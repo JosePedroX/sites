@@ -5,14 +5,42 @@
     text-decoration: none;
 
 }
-
-#produtos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (200px, ifr));
+body {
+    width: 100px;
+    
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    height: auto;
+   text-align: center;
 }
 
-.produto {
-    width: 200px;
+header {
+    text-align: right;
+    color: blue ;
+}
+ h2, h3 {
+text-align: center;
+width: 100%;
+justify-items: center; 
+color: aqua;
+}
+
+p {
+    text-align: center;
+}
+#produtos-f {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (200px, ifr));
+    gap: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.imagem-produto {
+    width: 100px;
     margin: 10px;
     border: 1px solid chocolate;
     padding: 10px;
@@ -21,9 +49,15 @@
 
 .produto image {
     max-width: 150%;
-    height: auto;
+    height: 100px;
     margin: 10px;
 }
+
+img {
+    width: 150px; 
+    height: 150px; 
+}
+
 
 .produto button{
     background-color: aquamarine;
@@ -42,13 +76,13 @@
     list-style: none;
     padding: 0%;
     margin-bottom: 5px;
-    border-bottom: 1 px solid antiquewhite;
+    border-bottom: 1wq px solid antiquewhite;
     padding-bottom: 0px;
 }
 
 #carrinho li span{
     margin-right: 5px;
-    flex-grow: 1;
+    
     
 }
 .carrinho li button {
@@ -62,14 +96,9 @@
     font-size: 12px;
     margin-left: 5px;
     cursor: pointer;
-
 }
 
 #total {
 margin-top: 20px;
 font-weight: bold;
-}
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20px;
 }

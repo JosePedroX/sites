@@ -1,24 +1,41 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produtos</title>
+<script>
+    function exibirmensagem() {
+      alert("Olá, Terraquios!");
+    }  
+  </script> 
+<link rel="stylesheet" href="venda.css">
 </head>
 <body>
-    <h1>sistema de vendas</h1>
-    <div id="produtos f">
+    <header> 
 
-    </div>
+        <h1>Sistema de Vendas</h1>
+    </header> 
+<div id="produtos-f"></div>
 
-    <h2>carrinho de comprass</h2>
-    <ul id="carrinho">
+<h2>Carrinho de Compras</h2>
+<ul id="carrinho"></ul>
+<p id="total">Total R$ 0.00</p>
 
-    </ul>
-    <p id="total">Total R$ 0.00</p>
+<script src="script.js"></script>
 
-    <script src="script.js"></script>
+<h3><p>Abacate</p></h3>
+<img src="/image/ex2.webp" alt="Abacate" width="150" height="auto">
+<br><br>
     
+<h3><p>Ameixa</p></h3>
+<img src="/image/ex3.jpg" alt="Ameixa" width="150" height="auto">
+<br><br>
+
+<h3><p>Amora</p></h3>
+<img src="/image/ex4.jpg" alt="Amora" width="150" height="auto">
+<br><br>
+
+<h3><p>Tomate</p></h3>
+<img src="/image/ex1.jpg" alt="Tomate" width="150" height="auto">
+<button onclick="exibirmensagem()">Clique 
+    aqui</button> 
 </body>
 </html>
