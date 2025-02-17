@@ -1,6 +1,24 @@
-h1, h2 {
+body {
+    background-image: url('https://pics.craiyon.com/2023-09-09/45f7725c1bd446fe8a5bb903cf98bce0.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #f0f0f0;
+    height: 100vh;
+    margin: 0;
+}
+
+title {
+    text-align: center;
+    color: whitesmoke;
+}
+    
+    
+    h2 {
     margin: 0;
     font-weight: 600;
+    color: white;
+    text-align: center;
 }
 
 .container {
@@ -42,6 +60,8 @@ h1, h2 {
 .card img {
     width: 100%;
     height: auto;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .card h3 {
@@ -124,12 +144,4 @@ a:hover {
   .component-header {
     color: var(--bs-gray-200);
   }
-  body {
-    background-image: url('https://pics.craiyon.com/2023-09-09/45f7725c1bd446fe8a5bb903cf98bce0.webp');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-color: #f0f0f0;
-    height: 100vh;
-    margin: 0;
-}
+ 

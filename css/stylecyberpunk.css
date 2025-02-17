@@ -8,7 +8,7 @@ header {
     
 }
 body {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/701/819/827/cyberpunk-2077-cyberpunk-edgerunners-cd-projekt-red-cyberpunk-netflix-hd-wallpaper-preview.jpg');
+    background-image: url(/image/cyberpfundo.avif);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -24,7 +24,7 @@ h1 {
     text-decoration: none;
     text-align: center;
     font-family: Chancery, cursive;
-    color:rgb(105, 1, 1); 
+    color:rgb(134, 0, 0); 
 }
 
 h2 {
@@ -44,7 +44,7 @@ h2 {
     text-decoration: none;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(151, 3, 3);
+    color: rgb(155, 24, 24);
 }
 
 h2 {
@@ -54,7 +54,7 @@ h2 {
     text-decoration: none;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(151, 3, 3);
+    color: rgb(155, 24, 24);
 }
 
 h3 {
@@ -64,7 +64,7 @@ h3 {
     text-decoration: none;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(184, 5, 5);
+    color: rgb(255, 4, 4);
 }
 
 h4 { margin: 20px;;
@@ -73,7 +73,7 @@ h4 { margin: 20px;;
     text-decoration: none;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(5, 148, 60);
+    color: rgb(5, 238, 94);
 }
 
 
