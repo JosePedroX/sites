@@ -1,0 +1,74 @@
+/* Estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5160e4;
+    color: #d37f00;
+}
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: #000650;
+    color: rgba(250, 171, 1, 0.797);
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+   }
+   h1:hover, h2:hover {
+    color: #7e5d29;
+   }
+   h4 {
+    font-family: "Lora", serif;
+   }
+   
+   .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+   }
+   
+   .intro {
+ text-align: center;
+ margin-bottom: 30px;
+ background: #121ca7;
+ padding: 15px;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+    width: 30%;
+    height:min-content;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+.grid {
+    text-align: center;
+}
+
+.card p {
+    font-size: 14px;
+    color: aqua;
+    margin: 10px 10px;
+}

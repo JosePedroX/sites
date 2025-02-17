@@ -1,22 +1,3 @@
-/* Estilo geral */
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #d3a3a3;
-    color: #ffffff;
-}
-h2 {
-    text-align: center;
-}
-
-header {
-    background-color: #5e0101;
-    color: rgba(255, 255, 255, 0.797);
-    text-align: center;
-    padding: 20px;
-}
-
 h1, h2 {
     margin: 0;
     font-weight: 600;
@@ -70,7 +51,7 @@ h1, h2 {
 
 .card p {
     font-size: 14px;
-    color: navajowhite;
+    color:navajowhite;
     margin: 0 10px 10px;
 }
 
@@ -117,8 +98,8 @@ form button:hover {
 }
 
 footer {
-    background-color: #fef8f8;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
     margin-top: 20px;
@@ -144,17 +125,11 @@ a:hover {
     color: var(--bs-gray-200);
   }
   body {
-    /* Definir a imagem de fundo */
     background-image: url('https://pics.craiyon.com/2023-09-09/45f7725c1bd446fe8a5bb903cf98bce0.webp');
-    /* Tornar a imagem de fundo adaptável à tela */
     background-size: cover;
-    /* Manter a imagem fixa quando a página rolar */
     background-attachment: fixed;
-    /* Garantir que a imagem ocupe todo o fundo */
     background-position: center center;
-    /* Definir a cor de fundo para áreas sem imagem */
     background-color: #f0f0f0;
-    /* Garantir que o corpo tenha altura suficiente para cobrir a tela */
     height: 100vh;
     margin: 0;
 }
