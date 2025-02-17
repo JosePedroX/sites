@@ -16,7 +16,7 @@ Tutorial de instalação do repositório GIT
 É necessário realizar alguns comandos no Terminal do Windows para extrair a chave.
 
 <p align="center">
-    <img src="/image/exp.png" width="400"> 
+    <img src="/image/exp.png" width="400"> <br>
 </p>
 
 - git --version
@@ -44,7 +44,7 @@ Perfil > configurações > SSH and GPG Keys > nova chave SSH
 - git init
 - git remote add origin
 - git branch -m brain
-- git push -u origin main ou master
+- git push -u origin main ou master<br>
 
 <p align="center">
     <img src="/image/Captura de Tela (14).png" width="400"> 
@@ -56,7 +56,7 @@ Perfil > configurações > SSH and GPG Keys > nova chave SSH
 ## comandos:
 <p align="center">
     <img src="Docs/Imagens/Terminal VScode.png" width="400"> 
-</p>
+</p><br>
 
 - git status | para verificar o conteúdo adicionado/excluído
 - git add . | para adicionar o conteúdo adicionado/editado
