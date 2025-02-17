@@ -38,7 +38,8 @@ Perfil > configurações > SSH and GPG Keys > nova chave SSH
  </p>
 
 ## PASSO 4 - CRIAÇÃO DO REPOSITORIO
-Criando um repositorio:
+
+## Criando um repositorio:
 
 - git init
 - git remote add origin
@@ -52,6 +53,7 @@ Criando um repositorio:
 
 ## PASSO 4 - COMANDOS ADMINISTRATIVOS DO GIT NO TERMINAL DO VSCODE
 
+## comandos:
 <p align="center">
     <img src="Docs/Imagens/Terminal VScode.png" width="400"> 
 </p>
