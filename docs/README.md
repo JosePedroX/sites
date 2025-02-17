@@ -21,8 +21,8 @@ Tutorial de instalação do repositório GIT
 
 - git --version
 - git config --global user.name "Seu nome cadastrado no github"<br>
-- git config --global user.email gmailcadastradonogithub@exemplo.br<br>
-- ssh-keygen | Comando para gerar sua chave (pública e privada), o que necessita de uma criação de segurança para chave: apertando enter 2x após o comando<br>
+- git config --global user.email gmailcadastradonogithub@exemplo.br<br><br>
+- ssh-keygen | Comando para gerar sua chave (pública e privada), o que necessita de uma criação de segurança para chave: apertando enter 2x após o comando<br><br>
 - cat id | para ler a chave pública que você adicionará ao seu repositório Git hub<br> 
 
 ## PASSO 3 - CONFIGURANDO GIT
