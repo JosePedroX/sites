@@ -8,6 +8,17 @@ body {
     margin: 0;
 }
 
+h1 {
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    font-family: Chancery, cursive;
+    color:rgba(0, 103, 121, 0.571); 
+}
+
+
 h2 {
     margin: 20;
     padding: 0;
@@ -15,18 +26,28 @@ h2 {
     text-decoration: none;
     text-align: center;
     font-family: Chancery, cursive;
-    color:rgb(182, 17, 17); 
+    color:rgb(8, 138, 138); 
 }
 
 
-* {
+
+h3 {
     margin: 20;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;
     font-family: Chancery, cursive;
-    color:rgb(94, 179, 179); 
+    color:rgb(39, 212, 212); 
+}
+h4 {
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    font-family: Chancery, cursive;
+    color:rgb(17, 255, 0); 
 }
 
 .footer {

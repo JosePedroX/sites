@@ -12,19 +12,39 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    background-color: #f0f0f0;
+    background-color: #d63c3c;
     height: 100vh;
     margin: 0;
 }
 
-* {
+h1 {
+  margin: 20;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(24, 0, 245, 0.733);
+}
+  
+h2 {
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(7, 169, 61);
+  }
+
+
+
+h3 {
     margin: 20;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;
     font-family: Chancery, cursive;
-    color:rgb(37, 194, 194); 
+    color:rgb(5, 232, 51); 
 }
 
 .footer {
